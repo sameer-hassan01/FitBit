@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bg.jpg</file>
+        <file>window.png</file>
+        <file>bg1.jpg</file>
+        <file>IMG_1663.png</file>
+        <file>IMG_1668.png</file>
+        <file>logo.jpeg</file>
+        <file>Baground image.jpg</file>
+        <file>healthy-lifestyles-inside-modern-gym-with-equipment-generated-by-ai.jpg</file>
+        <file>26226.png</file>
+        <file>54084.png</file>
+        <file>Untitled design.png</file>
+        <file>Untitled_design.png</file>
+        <file>13484.jpg</file>
+        <file>bodyoutline.png</file>
+        <file>Body.png</file>
+        <file>bodypicture-removebg-preview.png</file>
+        <file>workoutscreenbg.png</file>
+        <file>abstract-textured-backgound.jpg</file>
+        <file>1.gif</file>
+        <file>checklistbg.jpg</file>
+        <file>historybg.jpg</file>
+        <file>dietplanbg.jpg</file>
+        <file>maintainbg.png</file>
+        <file>weightgainbg.png</file>
+        <file>Weightlossbg.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>workoutpage</class>
+ <widget class="QDialog" name="workoutpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#workoutpage{
+
+	
+	border-image: url(:/images/workoutscreenbg.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="arm">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>180</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#arm {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius:15px solid black;
+	}
+
+	QPushButton#arm:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#arm:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Arms</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="picture" native="true">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>60</y>
+     <width>494</width>
+     <height>505</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#picture{
+
+	border-image: url(:/images/bodypicture-removebg-preview.png);
+}</string>
+   </property>
+   <widget class="QPushButton" name="legs">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>310</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold Condensed</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#legs {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius:15px solid black;
+	}
+
+	QPushButton#legs:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#legs:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+    </property>
+    <property name="text">
+     <string>Legs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="shoulders">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold Condensed</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#shoulders {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius:15px solid black;
+	}
+
+	QPushButton#shoulders:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#shoulders:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+    </property>
+    <property name="text">
+     <string>Shoulders</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="chest">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>200</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#chest {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius:15px solid black;
+	}
+
+	QPushButton#chest:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#chest:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Chest</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Backbutton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Backbutton {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius:15px solid black;
+	}
+
+	QPushButton#Backbutton:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#Backbutton:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

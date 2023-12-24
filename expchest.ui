@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>expchest</class>
+ <widget class="QDialog" name="expchest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#expchest{
+	border-image: url(:/images/abstract-textured-backgound.jpg);
+}</string>
+  </property>
+  <widget class="QPushButton" name="intC">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>290</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#intC {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#intC:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#intC:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>INTERMEDIATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="begC">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#begC {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#begC:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#begC:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>BEGINNER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txtC">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>100</y>
+     <width>541</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>36</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#txtC{
+color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>CHOOSE YOUR EXPERIENCE LEVEL :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="expC">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>290</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#expC {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#expC:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#expC:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>EXPERT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backC">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#backC {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :12px;
+	}
+
+	QPushButton#backC:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#backC:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

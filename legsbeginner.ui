@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>legsbeginner</class>
+ <widget class="QDialog" name="legsbeginner">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#legsbeginner{border-image: url(:/images/abstract-textured-backgound.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>600</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#pushButton:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#pushButton:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="disc" native="true">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>10</y>
+     <width>321</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#disc{
+	border-image: url(:/images/Untitled_design.png);
+}</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>241</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold Condensed</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+color:rgb(255,215,0);</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>1. Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90 degree angle at the starting position.
+
+2. Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>590</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startimerb">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>590</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#startimerb{
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#startimerb:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#startimerb:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Start Timer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="madb">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>590</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#madb {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#madb:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#madb:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Mark As Done</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>530</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/images/abstract-textured-backgound.jpg)</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>3 sets of 8-10 reps</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>armsinter</class>
+ <widget class="QDialog" name="armsinter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#armsinter{border-image: url(:/images/abstract-textured-backgound.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="disc" native="true">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>10</y>
+     <width>321</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#disc{
+	border-image: url(:/images/Untitled_design.png);
+}</string>
+   </property>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>241</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold Condensed</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+color:rgb(255,215,0);</string>
+    </property>
+    <property name="plainText">
+     <string>1. While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out.
+
+2. Continue the movement until your biceps are fully contracted and the bar is at shoulder level.
+
+3. Hold the contracted position for a second and squeeze the biceps hard.
+
+4. Slowly bring the weight back down to the starting position.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>550</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backbutton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>563</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#backbutton {
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#backbutton:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#backbutton:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startimerb">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>553</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#startimerb{
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#startimerb:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#startimerb:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>start timer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="madb">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>553</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#madb{
+    
+	background-color: rgb(255, 215, 0);
+	color: rgb(0, 0, 0);
+ border-radius :25px solid black;
+	}
+
+	QPushButton#madb:hover{
+    background-color: rgb(0, 142, 213);
+	}
+
+QPushButton#madb:pressed{
+    background-color: rgb(0, 26, 141);
+	}</string>
+   </property>
+   <property name="text">
+    <string>mark as done</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>480</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Qwidget{
+	border-image: url(:/images/abstract-textured-backgound.jpg);
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>4 sets of 8-10 reps</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
